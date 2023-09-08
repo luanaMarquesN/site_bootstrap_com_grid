@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CineDicas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/logo-removebg-preview.png">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+          <img src="img/logo.png" alt="logo do site" class="logo-custom">
+
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">CineDicas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#indicacoes">Indicações</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#distopias">Distopias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#comedias">Comédia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <br><br>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <div class="jumbotron text-center">
+                <h2 class="text-center">Bem-Vindo ao CineDicas!</h2>
+                <p>A melhor fonte sobre filmes</p>
+
+                <!--Slide-->
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                          class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                          aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                          aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img id="indicacoes" src="img/jumanji.webp" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Jumanji: Bem-vindo à Selva</h5>
+                            <p>Indicação dos melhores filmes</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/divergente.webp" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Divergente</h5>
+                            <p>Indicação dos melhores filmes</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/maze_runner.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Maze Runner</h5>
+                            <p>Indicação dos melhores filmes</p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <br><br>
+
+                    <div class="row">
+                      <div class="col-xs-12 col-md-12">
+
+                        <p>Conheça os melhores filmes de vários gêneros como: aventura, comédia, romance, drama, entre
+                          outros.</p>
+                        <br><br>
+                        <!--Card-->
+                        <h2 id="distopias">Distopias </h2>
+                      </div>
+                      <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/jogos_vorazes.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jogos Vorazes(2012)</h5>
+                              <p class="card-text">Na região antigamente conhecida como América do Norte, a Capital de
+                                Panem controla 12 distritos e os força a escolher um garoto e uma garota, conhecidos
+                                como tributos, para competir em um evento anual televisionado. Todos os cidadãos
+                                assistem aos temidos jogos, no qual os jovens lutam até a morte, de modo que apenas um
+                                saia vitorioso.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/divergente.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Divergente(2014)</h5>
+                              <p class="card-text">
+                                Na futurística cidade de Chicago, ao completar 16 anos, Beatrice precisa escolher entre
+                                as diferentes facções em que a cidade está dividida. Cada uma representa um valor
+                                diferente e, ao contrário de sua família, a jovem opta pela facção dos destemidos, a
+                                Audácia.
+                                .</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/maze_runner.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Maze Runner(2014)
+                              </h5>
+                              <p class="card-text"> Em um mundo pós-apocalíptico, o jovem Thomas é
+                                abandonado em uma comunidade isolada formada por garotos após toda sua memória ter sido
+                                apagada. Logo ele se vê preso em um labirinto, onde será preciso unir forças com outros
+                                jovens para que consiga escapar.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <h2 id="comedias">Comédias</h2 id="comedias">
+                      <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/esposa_de_mentirinha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Esposa de Mentirinha(2011)</h5>
+                              <p class="card-text">Um cirurgião plástico passa anos fingindo ser casado, até que conhece
+                                a mulher perfeita. Agora, ele precisa que sua assistente se passe por sua futura ex.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/de_repente_30.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">De Repente 30(2004)</h5>
+                              <p class="card-text">Após uma festa de aniversário fracassada, uma garota nerd faz um
+                                desejo: ter 30 anos. No dia seguinte, ela acorda e descobre que está 17 anos mais velha.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                          <div class="card bg-custom">
+                            <img src="img/jumanji.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jumanji: Bem-Vindo à Selva(2017) </h5>
+                              <p class="card-text"> Quatro estudantes vão parar dentro de um antigo videogame e precisam
+                                vencer uma floresta cheia de perigos se não quiserem ficar presos no jogo para sempre.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!--Rodapé-->
+                        <footer class="page-footer p-4 col-md-12 m-auto text-white" style="background-color: #8b0000;">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-2 ">
+                                <img width="150px" height="100px" src="img/logo.png" alt="">
+                              </div>
+                              <div class="col-md-8 text-center">
+                                <p>@2023 Copyright: Luana Marques</p>
+                              </div>
+                            </div>
+                          </div>
+                        </footer>
+
+
+
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                          integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                          crossorigin="anonymous"></script>
+</body>
+
+</html>

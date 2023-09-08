@@ -1,0 +1,17 @@
+p {
+    font-size: 24px;
+}
+.bg-custom {
+    background-color:#e0e0e0;
+}
+.navbar-custom {
+    background-color: #8b0000;
+
+}
+.logo-custom{
+    width: 130px;
+    height: 70px;
+}
+.footer{
+    background-color: #8b0000;
+}
